@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 14.x
       - name: Install
-        run: npm ci && npm i -g http-server @lhci/cli
+        run: npm ci && npm i -g @lhci/cli
       - name: Build
         run: npm run build
       - name: LighthouseCI
