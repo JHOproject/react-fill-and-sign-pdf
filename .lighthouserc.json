@@ -1,5 +1,13 @@
 {
   "ci": {
+    "collect": {
+      "url": ["https://JHOproject.github.io/react-fill-and-sign-pdf"],
+      "startServerReadyPattern": "Available on",
+      "numberOfRuns": 1
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    },
     "assert": {
       "preset": "lighthouse:no-pwa",
       "assertions": {
